@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}
+span, a{
+    display: inline-block;
+}
+.inset{
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    font-size: 18px;
+}
+.all, .btn, .box4, .box7, .circle{
+    background-color: black;
+}
+.circle{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.box7, .box4, .btn, .white, .white-title{
+    color: white;
+}
+.box2, .box3, .box4, .box5, .box7{
+    padding: 25px 100px;
+}
+.box1, .box2, .box3, .box4, .box5, .together, .buttonbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.box7{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+.flex, .box-in{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.link, .btn, .circle{
+    margin-right: 13px;
+}
+.link{
+    text-decoration: none;
+}
+.link, .oq, .color{
+    color: black;
+}
+.box1, .btn, .box5-1{
+    padding: 8px 25px;
+}
+.btn, .buttonbox{
+    border-radius: 20px;
+    border: none;
+}
+.box2-1, .box2-2, .pic3, .textbox{
+    width: 47%;
+}
+.title{
+    font-size: 50px;
+}
+.title, .text, .flex, .box-in, .white, .grey, .white-title{
+    margin-bottom: 16px;
+}
+.bigger{
+    max-width: 250px;
+}
+.box3, .box5-1, .oq, .buttonbox{
+    background-color: rgb(236, 236, 236);
+}
+.box3-1, .box5-1, .box7-2{
+    width: 32%;
+}
+.grey{
+    color: grey;
+}
+.box6{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.39),
+        rgba(0, 0, 0, 0.473)
+    ),
+    url(img/img.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px 10px;
+    text-align: center;
+}
+.white-title{
+    font-size: 36px;
+    max-width: 350px;
+    margin: auto;
+}
+.box7-1{
+    width: 17%;
+}
+.pic6{
+    height: 30px;
+}
+.buttonbox{
+    padding: 4px 15px;
+}
+@media(max-width:900px){
+    .box2-1, .box2-2, .textbox, .pic3{
+        width: 100%;
+    }
+    .box5-1{
+        width: 47%;
+    }
+    .box5, .box7{
+        row-gap: 20px;
+    }
+    .picbox{
+        width: 100%;
+    }
+}
+@media(max-width:700px){
+    .tugma, .bigger, .box3-1{
+        width: 100%;
+    }
+    .box2-1, .box3-1, .box4{
+        text-align: center;
+    }
+    .box4, .box5{
+        padding: 10px 13px;
+    }
+}
+@media(max-width:550px){
+    .link{
+        color: white;
+    }
+    .box1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .pic, .links, .btn2{
+        width: 32%;
+    }
+    .box2, .box3, .box7{
+        padding: 10px 13px;
+    }
+    .box5-1, .box7-2{
+        width: 100%;
+    }
+}
